@@ -1,4 +1,9 @@
 {
+  "functions": {
+    "api/chat/[provider].js": {
+      "maxDuration": 60
+    }
+  },
   "buildCommand": "bun run build",
   "installCommand": "bun install"
 }
