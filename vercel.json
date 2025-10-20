@@ -1,6 +1,6 @@
 {
   "functions": {
-    "app/api/chat/**": {
+    "webapi/chat/**": {
       "maxDuration": 60
     }
   },
