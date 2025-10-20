@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/chat/[provider].js": {
+    "app/api/chat/**": {
       "maxDuration": 60
     }
   },
