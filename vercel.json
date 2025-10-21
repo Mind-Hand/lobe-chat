@@ -1,7 +1,8 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
-    "webapi/chat/**": {
-      "maxDuration": 60
+    "pages/api/users/**/*.js": {
+      "maxDuration": 30
     }
   },
   "buildCommand": "bun run build",
